@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category and Product Management</title>
+    <link rel="stylesheet" href="/views/style.css">
+</head>
+<body>
+<!--     
+<div class="container">
+    <form id="categoryForm" name="categoryForm">
+        <h1>Category Management</h1>
+        <label for="categoryName">Category Name:</label>
+        <input type="text" id="categoryName" name="categoryName">
+        <button type="submit" id="addCategoryBtn" onclick="populateCategories()">Add Category</button>
+    </form>
+
+    
+    <form id="productForm" name="productForm">
+        <h1>Product Management</h1>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName">
+        <label for="categorySelect">Category:</label>
+        <select id="categorySelect" name="categorySelect"></select>
+        <button type="submit" id="addProductBtn">Add Product</button>
+    </form>
+</div> -->
+<hr>
+<div class="productContainer">
+    <h1>Product and Category List</h1><hr>
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Category Id</th>
+                <th>Category Name</th>
+            </tr>
+        </thead>
+        <tbody id="productList">
+            <tr>
+                <td>01</td>
+                <td>T-shirt</td>
+                <td>01</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Jeans Pants</td>
+                <td>02</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Formal Shirts</td>
+                <td>03</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Formal Pants</td>
+                <td>04</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Full Sleeves Shirts</td>
+                <td>05</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Half Sleeves Shirts</td>
+                <td>06</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Full Sleeves T-shirts</td>
+                <td>07</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Half Sleeves T-shirts</td>
+                <td>08</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Hoodies</td>
+                <td>09</td>
+                <td>Clothes</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Leather Jackets</td>
+                <td>10</td>
+                <td>Clothes</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</div>
+
+    <ul class="pagelist">
+        <li><a href="/">First</a></li>
+        <li><a href="/">1</a></li>
+        <li><a href="/page=2&limit=10">2</a></li>
+        <li><a href="/page=3&limit=10">3</a></li>
+        <li><a href="/page=4&limit=10">4</a></li>
+        <li><a href="/page=5&limit=10">5</a></li>
+        <li><a href="/page=6&limit=10">6</a></li>
+        <li><a href="/page=7&limit=10">7</a></li>
+        <li><a href="/page=8&limit=10">8</a></li>
+        <li><a href="/page=9&limit=10" class="active">9</a></li>
+        <li><a href="/page=10&limit=10">10</a></li>
+        <li><a href="/page=10&limit=10">Last</a></li>
+
+    </ul>
+
+<!-- <script src="/views/script.js"></script>  -->
+
+</body>
+</html>
